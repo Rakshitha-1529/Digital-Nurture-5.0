@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.column {
+    width: 300px;
+    padding: 20px;
+    border-right: 4px solid green;
+}
+
+.column:last-child {
+    border-right: none;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+h4 {
+    color: black;
+}
+
+p {
+    color: gray;
+}
